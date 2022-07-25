@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: lemonchiffon;
+}
+body {
+    width: 680px;
+}
+
+h1 {
+    font-family: arial;
+    color: #11112a;
+    padding-left: 202px;
+}
+table {
+    margin: 10px;
+    width: 600px;
+    border-collapse: collapse;
+    border: 5px solid #11112a;
+    font-family: arial;
+    
+}
+th {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid hsl(45deg 99% 51%);
+    background: hsl(45deg 99% 51%);
+    color: #11112a
+}
+td {
+    text-align: left;
+    padding: 20px;
+    border: 1px solid hsl(45deg 99% 51%);
+    background: hsl(251deg 43% 30%);
+    color: white;
+}
+th:nth-of-type(2) {
+    background: hsl(42deg 78% 54%);
+    border: 1px solid hsl(45deg 99% 51%);
+}
+
+td:nth-of-type(3) {
+    text-align: center;
+}
+
+input {
+    width: 29.3%; 
+    background: #ffd85f;
+}
+button {
+    width: 29.9%;
+    background: hsl(251deg 43% 30%);
+    color: white;
+}
+#input, #button, h1 {
+    margin: 10px;
+}
+
+
+
